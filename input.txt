@@ -1,0 +1,11 @@
+COPY    START   1000
+FIRST   LDA     ALPHA
+        STA     BETA
+        LDA     GAMMA
+        ADD     ALPHA
+        STA     DELTA
+ALPHA   WORD    5
+BETA    RESW    1
+GAMMA   WORD    3
+DELTA   RESW    1
+        END     FIRST
